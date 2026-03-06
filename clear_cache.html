@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear Ada Cache</title>
+    <style>
+        body {
+            background: #000;
+            color: #0ff;
+            font-family: monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            border: 2px solid #0ff;
+            border-radius: 10px;
+        }
+        button {
+            background: #0ff;
+            color: #000;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background: #0aa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔓 Clear Ada Cache</h1>
+        <p>Click the button below to clear all cached data<br>and reload Ada without face authentication.</p>
+        <button onclick="clearAndReload()">Clear Cache & Reload Ada</button>
+    </div>
+    <script>
+        function clearAndReload() {
+            // Clear localStorage
+            localStorage.clear();
+            
+            // Clear sessionStorage
+            sessionStorage.clear();
+            
+            // Redirect to Ada with cache-busting parameter
+            window.location.href = 'http://localhost:5173?nocache=' + Date.now();
+        }
+    </script>
+</body>
+</html>

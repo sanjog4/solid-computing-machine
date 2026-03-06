@@ -1,0 +1,353 @@
+
+Electron module keys: [
+  'nativeImage',       'shell',
+  'app',               'autoUpdater',
+  'BaseWindow',        'BrowserView',
+  'BrowserWindow',     'clipboard',
+  'contentTracing',    'crashReporter',
+  'desktopCapturer',   'dialog',
+  'globalShortcut',    'ipcMain',
+  'inAppPurchase',     'Menu',
+  'MenuItem',          'MessageChannelMain',
+  'nativeTheme',       'net',
+  'netLog',            'Notification',
+  'powerMonitor',      'powerSaveBlocker',
+  'pushNotifications', 'protocol',
+  'safeStorage',       'screen',
+  'session',           'ShareMenu',
+  'systemPreferences', 'TouchBar',
+  'Tray',              'utilityProcess',
+  'View',              'webContents',
+  'WebContentsView',   'webFrameMain',
+  'ImageView'
+]
+Electron app starting...
+App object exists
+app.commandLine exists
+Starting Python backend with: C:\Users\sanjo\OneDrive\ada_v2-main\venv\Scripts\python.exe C:\Users\sanjo\OneDrive\ada_v2-main\backend\server.py
+Waiting for backend...
+Waiting for backend...
+Waiting for backend...
+Waiting for backend...
+Waiting for backend...
+Waiting for backend...
+Waiting for backend...
+Waiting for backend...
+Waiting for backend...
+[Python Error]: C:\Users\sanjo\OneDrive\ada_v2-main\backend\server.py:111: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+
+[Python Error]: WARNING:  Current configuration will not reload as not all conditions are met, please refer to documentation.
+
+[Python Error]: INFO:     Started server process [50664]
+INFO:     Waiting for application startup.
+
+Waiting for backend...
+Waiting for backend...
+Waiting for backend...
+Waiting for backend...
+Waiting for backend...
+[Python Error]: INFO:     Application startup complete.
+
+[Python Error]: INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+
+[Python]: Loaded settings: {'face_auth_enabled': False, 'tool_permissions': {'generate_cad': True, 'run_web_agent': True, 'write_file': False, 'read_directory': False, 'read_file': False, 'create_project': False, 'switch_project': False, 'list_projects': False, 'create_directory': False, 'iterate_cad': False, 'print_stl': False, 'discover_printers': False, 'control_light': False, 'list_smart_devices': False}, 'printers': [{'name': 'Creality K1', 'host': '10.0.0.142', 'port': 7125, 'type': 'moonraker', 'camera_url': None}, {'name': 'Creality K1 SE', 'host': '10.0.0.34', 'port': 7125, 'type': 'moonraker', 'camera_url': None}], 'kasa_devices': [{'ip': '10.0.0.49', 'alias': 'Right Room Light', 'model': 'KL135'}, {'ip': '10.0.0.52', 'alias': 'Left Office Light ', 'model': 'KL135'}, {'ip': '10.0.0.83', 'alias': 'Right Office Light', 'model': 'KL135'}], 'camera_flipped': False}
+Loaded settings: {'face_auth_enabled': False, 'tool_permissions': {'generate_cad': True, 'run_web_agent': True, 'write_file': False, 'read_directory': False, 'read_file': False, 'create_project': False, 'switch_project': False, 'list_projects': False, 'create_directory': False, 'iterate_cad': False, 'print_stl': False, 'discover_printers': False, 'control_light': False, 'list_smart_devices': False}, 'printers': [{'name': 'Creality K1', 'host': '10.0.0.142', 'port': 7125, 'type': 'moonraker', 'camera_url': None}, {'name': 'Creality K1 SE', 'host': '10.0.0.34', 'port': 7125, 'type': 'moonraker', 'camera_url': None}], 'kasa_devices': [{'ip': '10.0.0.49', 'alias': 'Right Room Light', 'model': 'KL135'}, {'ip': '10.0.0.52', 'alias': 'Left Office Light ', 'model': 'KL135'}, {'ip': '10.0.0.83', 'alias': 'Right Office Light', 'model': 'KL135'}], 'camera_flipped': False}
+[SERVER DEBUG] Startup Event Triggered
+[SERVER DEBUG] Python Version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+[SERVER DEBUG] Running Loop: <class 'asyncio.windows_events.ProactorEventLoop'>
+[SERVER DEBUG] Current Policy: <class 'asyncio.windows_events.WindowsProactorEventLoopPolicy'>
+[SERVER] Startup: Initializing Kasa Agent...
+[KasaAgent] Initializing 3 known devices...
+[KasaAgent] Error loading known device 10.0.0.52: Timed out getting discovery response for 10.0.0.52
+[KasaAgent] Error loading known device 10.0.0.49: Timed out getting discovery response for 10.0.0.49
+[KasaAgent] Error loading known device 10.0.0.83: Timed out getting discovery response for 10.0.0.83
+INFO:     127.0.0.1:55553 - "GET /status HTTP/1.1" 200 OK
+
+Backend is ready!
+[Frontend] Attempting to load: http://localhost:5174
+[Python]: INFO:     127.0.0.1:55566 - "GET /socket.io/?EIO=4&transport=polling&t=deuq0j6e HTTP/1.1" 200 OK
+
+Frontend loaded successfully!
+[Python]: Client connected: HLABWSVZeMdkA0QgAAAB
+[AUTH] [OK] Face Landmarker initialized.
+[AUTH] [WARN] Reference file not found at reference.jpg. Authentication will fail.
+Face Auth Disabled. Auto-authenticating.
+INFO:     127.0.0.1:55566 - "POST /socket.io/?EIO=4&transport=polling&t=dev0u347&sid=O0yPRKK19NLjsau-AAAA HTTP/1.1" 200 OK
+
+[Python Error]: INFO:     127.0.0.1:55570 - "WebSocket /socket.io/?EIO=4&transport=websocket&sid=O0yPRKK19NLjsau-AAAA" [accepted]
+
+[Python]: INFO:     127.0.0.1:55569 - "GET /socket.io/?EIO=4&transport=polling&t=dev0xlmf&sid=O0yPRKK19NLjsau-AAAA HTTP/1.1" 200 OK
+
+[Python Error]: INFO:     connection open
+
+[Python]: INFO:     127.0.0.1:55569 - "POST /socket.io/?EIO=4&transport=polling&t=devedp59&sid=O0yPRKK19NLjsau-AAAA HTTP/1.1" 200 OK
+
+[Python]: INFO:     127.0.0.1:55566 - "GET /socket.io/?EIO=4&transport=polling&t=deve9w1b&sid=O0yPRKK19NLjsau-AAAA HTTP/1.1" 200 OK
+
+[Python Error]: Warning: there are non-data parts in the response: ['text', 'thought'], returning concatenated data result from data parts, check out the non data parts for full response from model.
+
+[Python Error]: Traceback (most recent call last):
+
+[Python Error]:   File "C:\Users\sanjo\OneDrive\ada_v2-main\backend\ada.py", line 645, in receive_audio
+    async for response in turn:
+  File "C:\Users\sanjo\OneDrive\ada_v2-main\venv\Lib\site-packages\google\genai\live.py", line 453, in receive
+    while result := await self._receive():
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sanjo\OneDrive\ada_v2-main\venv\Lib\site-packages\google\genai\live.py", line 534, in _receive
+    raw_response = await self._ws.recv(decode=False)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sanjo\OneDrive\ada_v2-main\venv\Lib\site-packages\websockets\asyncio\connection.py", line 322, in recv
+    raise self.protocol.close_exc from self.recv_exc
+
+[Python Error]: websockets.exceptions.ConnectionClosedError: received 1011 (internal error) Deadline expired before operation could complete.; then sent 1011 (internal error) Deadline expired before operation could complete.
+
+[Python Error]: Traceback (most recent call last):
+
+[Python Error]:   File "C:\Users\sanjo\OneDrive\ada_v2-main\backend\ada.py", line 645, in receive_audio
+    async for response in turn:
+  File "C:\Users\sanjo\OneDrive\ada_v2-main\venv\Lib\site-packages\google\genai\live.py", line 453, in receive
+    while result := await self._receive():
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sanjo\OneDrive\ada_v2-main\venv\Lib\site-packages\google\genai\live.py", line 534, in _receive
+    raw_response = await self._ws.recv(decode=False)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sanjo\OneDrive\ada_v2-main\venv\Lib\site-packages\websockets\asyncio\connection.py", line 322, in recv
+    raise self.protocol.close_exc from self.recv_exc
+
+[Python Error]: websockets.exceptions.ConnectionClosedError: received 1011 (internal error) Deadline expired before operation could complete.; then sent 1011 (internal error) Deadline expired before operation could complete.
+
+[Python]: Received discover_kasa request
+Discovering Kasa devices (Broadcast)...
+Received discover_printers request
+[SERVER] Returning 2 saved printers (audio_loop not ready)
+Starting Audio Loop...
+Using input device: Name='Default - Microphone Array (Intel� Smart Sound Technology for Digital Microphones)', Index=0
+Initializing AudioLoop with device_index=0
+[PRINTER] Warning: No Slicer (Orca/Prusa) found. Slicing will fail.
+[ProjectManager] Clearing temp project...
+[ProjectManager] Created project: temp
+AudioLoop initialized successfully.
+[ADA DEBUG] [CONFIG] Updating tool permissions: {'generate_cad': True, 'run_web_agent': True, 'write_file': False, 'read_directory': False, 'read_file': False, 'create_project': False, 'switch_project': False, 'list_projects': False, 'create_directory': False, 'iterate_cad': False, 'print_stl': False, 'discover_printers': False, 'control_light': False, 'list_smart_devices': False}
+Starting with Audio Paused
+Creating asyncio task for AudioLoop.run()
+Emitting 'A.D.A Started'
+[ADA DEBUG] [CONNECT] Connecting to Gemini Live API...
+[SERVER] Loading 2 saved printers...
+[PRINTER] Manually added: Creality K1 at 10.0.0.142:7125
+[PRINTER] Manually added: Creality K1 SE at 10.0.0.34:7125
+[SERVER] Starting Printer Monitor Loop
+Sending Project Update: temp
+[ADA] Attempting to find input device matching: 'Default - Microphone Array (Intel� Smart Sound Technology for Digital Microphones)'
+[ADA] Could not find device matching 'Default - Microphone Array (Intel� Smart Sound Technology for Digital Microphones)'. Checking index...
+[ADA] Requesting Input Device Index: 0
+[KasaAgent] Raw discovery found 0 devices.
+Total Kasa devices (found + cached): 0
+Settings saved.
+[SERVER] Saved 0 Kasa devices to settings.
+[PRINTER] Moonraker status failed: Cannot connect to host 10.0.0.142:7125 ssl:default [The semaphore timeout period has expired]
+[PRINTER] Moonraker status failed: Cannot connect to host 10.0.0.34:7125 ssl:default [The semaphore timeout period has expired]
+[SERVER DEBUG] User input received: 'hayyy '
+[SERVER DEBUG] Sending message to model: 'hayyy '
+[SERVER DEBUG] Piggybacking video frame with text input.
+[SERVER DEBUG] Message sent to model successfully.
+Resuming Audio
+[ADA DEBUG] [VAD] Speech Detected (RMS: 2535). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+Pausing Audio
+Resuming Audio
+[ADA DEBUG] [VAD] Speech Detected (RMS: 2289). Sending Video Frame.
+Pausing Audio
+Resuming Audio
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1039). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+Pausing Audio
+Resuming Audio
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1343). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 931). Sending Video Frame.
+Pausing Audio
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+Resuming Audio
+[ADA DEBUG] [VAD] Speech Detected (RMS: 998). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 981). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 905). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1093). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1016). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1663). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1316). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 986). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1097). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 907). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1642). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 879). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 3744). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+Pausing Audio
+Resuming Audio
+[ADA DEBUG] [VAD] Speech Detected (RMS: 956). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1567). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 2756). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1140). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 892). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 839). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1161). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1173). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1070). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 935). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 917). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 913). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1872). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 897). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 875). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 849). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 897). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1580). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+Pausing Audio
+Error in receive_audio: received 1011 (internal error) Deadline expired before operation could complete.; then sent 1011 (internal error) Deadline expired before operation could complete.
+[ADA DEBUG] [ERR] Connection Error: unhandled errors in a TaskGroup (1 sub-exception)
+[ADA DEBUG] [RETRY] Reconnecting in 1 seconds...
+[ADA DEBUG] [CONNECT] Connecting to Gemini Live API...
+[ADA DEBUG] [RECONNECT] Connection restored.
+[ADA DEBUG] [RECONNECT] Fetching recent chat history to restore context...
+[ADA DEBUG] [RECONNECT] Sending restoration context to model...
+[ADA] Attempting to find input device matching: 'Default - Microphone Array (Intel� Smart Sound Technology for Digital Microphones)'
+[ADA] Could not find device matching 'Default - Microphone Array (Intel� Smart Sound Technology for Digital Microphones)'. Checking index...
+[ADA] Requesting Input Device Index: 0
+Resuming Audio
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1601). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1434). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+Pausing Audio
+Resuming Audio
+[ADA DEBUG] [VAD] Speech Detected (RMS: 804). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 935). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1094). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 960). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 877). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 854). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1675). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 877). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1237). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1425). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1062). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 877). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 868). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 856). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 857). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 823). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 960). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 1750). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[SERVER DEBUG] User input received: 'my name is sanjog mahapatra '
+[SERVER DEBUG] Sending message to model: 'my name is sanjog mahapatra '
+[SERVER DEBUG] Piggybacking video frame with text input.
+[SERVER DEBUG] Message sent to model successfully.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 940). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+[ADA DEBUG] [VAD] Speech Detected (RMS: 951). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+Error in receive_audio: received 1011 (internal error) Deadline expired before operation could complete.; then sent 1011 (internal error) Deadline expired before operation could complete.
+[ADA DEBUG] [ERR] Connection Error: unhandled errors in a TaskGroup (1 sub-exception)
+[ADA DEBUG] [RETRY] Reconnecting in 1 seconds...
+[ADA DEBUG] [CONNECT] Connecting to Gemini Live API...
+[ADA DEBUG] [RECONNECT] Connection restored.
+[ADA DEBUG] [RECONNECT] Fetching recent chat history to restore context...
+[ADA DEBUG] [RECONNECT] Sending restoration context to model...
+[ADA] Attempting to find input device matching: 'Default - Microphone Array (Intel� Smart Sound Technology for Digital Microphones)'
+[ADA] Could not find device matching 'Default - Microphone Array (Intel� Smart Sound Technology for Digital Microphones)'. Checking index...
+[ADA] Requesting Input Device Index: 0
+[ADA DEBUG] [VAD] Speech Detected (RMS: 940). Sending Video Frame.
+[ADA DEBUG] [VAD] Silence detected. Resetting speech state.
+Received discover_kasa request
+Discovering Kasa devices (Broadcast)...
+Received discover_printers request
+[PRINTER] Starting printer discovery (timeout: 5.0s)...
+Received discover_printers request
+[PRINTER] Starting printer discovery (timeout: 5.0s)...
+[KasaAgent] Raw discovery found 0 devices.
+Total Kasa devices (found + cached): 0
+Settings saved.
+[SERVER] Saved 0 Kasa devices to settings.
+[PRINTER] Discovery complete. Found 2 printers.
+[PRINTER] Discovery complete. Found 2 printers.
+Client disconnected: HLABWSVZeMdkA0QgAAAB
+INFO:     127.0.0.1:61701 - "GET /socket.io/?EIO=4&transport=polling&t=e730mmeo HTTP/1.1" 200 OK
+
+[Python]: Client connected: 5tQpkDbqA1XGkwvoAAAD
+Face Auth Disabled. Auto-authenticating.
+INFO:     127.0.0.1:61701 - "POST /socket.io/?EIO=4&transport=polling&t=e73ct6xd&sid=nvmCVUqsMEB9fWUEAAAC HTTP/1.1" 200 OK
+
+[Python]: INFO:     127.0.0.1:61701 - "GET /socket.io/?EIO=4&transport=polling&t=e73cyxc7&sid=nvmCVUqsMEB9fWUEAAAC HTTP/1.1" 200 OK
+
+[Python]: INFO:     127.0.0.1:61701 - "POST /socket.io/?EIO=4&transport=polling&t=e73kvs32&sid=nvmCVUqsMEB9fWUEAAAC HTTP/1.1" 200 OK
+
+[Python Error]: INFO:     127.0.0.1:61704 - "WebSocket /socket.io/?EIO=4&transport=websocket&sid=nvmCVUqsMEB9fWUEAAAC" [accepted]
+
+[Python Error]: INFO:     connection open
+
+[Python]: INFO:     127.0.0.1:61703 - "GET /socket.io/?EIO=4&transport=polling&t=e73kpa69&sid=nvmCVUqsMEB9fWUEAAAC HTTP/1.1" 200 OK
+
+[Python]: INFO:     127.0.0.1:61703 - "POST /socket.io/?EIO=4&transport=polling&t=e73x3513&sid=nvmCVUqsMEB9fWUEAAAC HTTP/1.1" 200 OK
+
+App closing... Killing Python backend.
+'taskkill' is not recognized as an internal or external command,
+operable program or batch file.
+Failed to kill python process: Command failed: taskkill /pid 41900 /f /t
+'taskkill' is not recognized as an internal or external command,
+operable program or batch file.
+
