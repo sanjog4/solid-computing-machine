@@ -22,3 +22,12 @@ python-dotenv
 mediapipe
 # CAD Generation
 build123d
+
+# JARVIS local assistant
+speechrecognition
+pyttsx3
+pyautogui
+python-telegram-bot
+pandas
+openai
+pypdf
